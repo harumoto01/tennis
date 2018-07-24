@@ -1,0 +1,93 @@
+.ui-table {
+    table-layout: fixed;
+}
+
+.ui-table tr {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.ui-table td, .ui-table th {
+//    vertical-align: middle;
+    white-space: nowrap;
+//    padding: 0px 5px 0px 5px;
+}
+
+.ui-table td.players_uid, .ui-table th.players_uid {
+    width: 6em;
+    overflow: hidden;
+    text-overflow: clip;
+    -webkit-text-overflow: clip;
+    -o-text-overflow: clip;
+}
+
+.ui-table td.players_name, .ui-table th.players_name {
+    width: 7em;
+    overflow: hidden;
+    text-overflow: clip;
+    -webkit-text-overflow: clip;
+    -o-text-overflow: clip;
+}
+
+.ui-table td.players_name_kana, .ui-table th.players_name_kana {
+    width: 10em;
+    overflow: hidden;
+    text-overflow: clip;
+    -webkit-text-overflow: clip;
+    -o-text-overflow: clip;
+}
+
+.ui-table td.players_gender, .ui-table th.players_gender {
+    width: 2em;
+    text-align: center;
+}
+
+.ui-table td.players_affil, .ui-table th.players_affil {
+    width: 6em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+
+.ui-table td.players_pref, .ui-table th.players_pref {
+    width: 4em;
+    overflow: hidden;
+    text-overflow: clip;
+    -webkit-text-overflow: clip;
+    -o-text-overflow: clip;
+}
+
+.ui-table td.players_category, .ui-table th.players_category {
+    width: 4em;
+    text-align: center;
+}
+
+
+.message {
+    color: red;
+    text-align: center;
+}
+
+label.error {
+    color: orange;
+    font-size: small;
+    font-weight: bold;
+    margin-top: .5em;
+    width: 100%;
+    float: none;
+}
+input.error {
+    //    border: 1px solid red;
+}
+@media screen and (max-width:28em) {
+    label.error {
+	margin-left: 0;
+	display: block;
+    }
+}
+@media screen and (min-width:28em) {
+    label.error {
+	display: inline-block;
+	margin-left: 23%;
+    }
+}
