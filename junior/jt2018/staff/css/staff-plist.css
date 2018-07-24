@@ -1,0 +1,155 @@
+tr.highlight {
+    background-color: #fee;
+}
+.staff_sheet1 .ui-header, .staff_sheet1 .ui-footer {
+    background-color: #ddf;
+}
+.staff_sheet2 .ui-header, .staff_sheet2 .ui-footer {
+    background-color: #dfd;
+}
+
+.ui-table {
+    table-layout: fixed;
+}
+
+.ui-table tr {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.ui-table td, .ui-table th {
+//    vertical-align: middle;
+    white-space: nowrap;
+//    padding: 0px 5px 0px 5px;
+}
+
+.ui-table td.plist_name, .ui-table th.plist_name {
+    width: 8em;
+    overflow: hidden;
+    text-overflow: clip;
+    -webkit-text-overflow: clip;
+    -o-text-overflow: clip;
+}
+
+.ui-table td.plist_affil, .ui-table th.plist_affil {
+//    width: 10em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+
+.ui-table td.plist_category, .ui-table th.plist_category {
+    width: 4em;
+    text-align: center;
+}
+.ui-table td.plist_gender, .ui-table th.plist_gender {
+    width: 2em;
+    text-align: center;
+}
+.ui-table td.plist_num, .ui-table th.plist_num {
+    width: 3.5em;
+    text-align: center;
+}
+    
+.ui-table .hidden {
+    display: none !important;
+
+}
+
+.ui-mobile fieldset.fsfilter {
+    display: inline-block;
+}
+
+.ui-select span.ui-li-count {
+    display: none !important;
+}
+
+.ui-input-search {
+    display: inline-block;
+    float: right;
+}
+
+td .ui-btn {
+    padding: .5em .8em;
+}
+
+#staff_sheet1_table th, #staff_sheet2_table th {
+    width: 12em;
+}
+.message {
+    color: red;
+    text-align: center;
+}
+
+.ui-content {
+    overflow-x: auto;
+}
+
+.bodybody {
+    text-align: center;
+}
+.bodyimg {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+.bodyimg label {
+    position: absolute;
+    display: inline-block;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 10px;
+    background-color: #aaa;
+    text-shadow: 0 0 0;
+    font-weight: bold;
+}
+.bodyimg label.mark0 {
+    background-color: #aaa;
+}
+.bodyimg label.mark1 {
+    background-color: #ff0;
+}
+.bodyimg label.mark2 {
+    background-color: #fc0;
+}
+.bodyimg label.mark3 {
+    background-color: #f90;
+}
+.bodyimg label.mark4 {
+    background-color: #f60;
+}
+.bodyimg label.mark5 {
+    background-color: #f30;
+}
+
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label.error {
+    color: red;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: .5em;
+    width: 100%;
+    float: none;
+}
+
+@media screen and (max-width:28em) {
+    label.error {
+	margin-left: 0;
+	display: block;
+    }
+}
+@media screen and (min-width:28em) {
+    label.error {
+	display: inline-block;
+	margin-left: 23%;
+    }
+}
+
+.age_range {
+    margin-left: 55%;
+}
