@@ -1,0 +1,80 @@
+.ui-table {
+    table-layout: fixed;
+}
+
+.ui-table tr {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.ui-table td, .ui-table th {
+//    vertical-align: middle;
+    white-space: nowrap;
+//    padding: 0px 5px 0px 5px;
+}
+
+.ui-table td.staffs_uid, .ui-table th.staffs_uid {
+    width: 6em;
+    overflow: hidden;
+    text-overflow: clip;
+    -webkit-text-overflow: clip;
+    -o-text-overflow: clip;
+}
+
+.ui-table td.staffs_name, .ui-table th.staffs_name {
+    width: 7em;
+    overflow: hidden;
+    text-overflow: clip;
+    -webkit-text-overflow: clip;
+    -o-text-overflow: clip;
+}
+
+.ui-table td.staffs_name_kana, .ui-table th.staffs_name_kana {
+    width: 10em;
+    overflow: hidden;
+    text-overflow: clip;
+    -webkit-text-overflow: clip;
+    -o-text-overflow: clip;
+}
+
+.ui-table td.staffs_gender, .ui-table th.staffs_gender {
+    width: 2em;
+    text-align: center;
+}
+
+.ui-table td.staffs_kind, .ui-table th.staffs_kind {
+    width: 4em;
+    overflow: hidden;
+    text-overflow: clip;
+    -webkit-text-overflow: clip;
+    -o-text-overflow: clip;
+}
+
+
+.message {
+    color: red;
+    text-align: center;
+}
+
+label.error {
+    color: orange;
+    font-size: small;
+    font-weight: bold;
+    margin-top: .5em;
+    width: 100%;
+    float: none;
+}
+input.error {
+    //    border: 1px solid red;
+}
+@media screen and (max-width:28em) {
+    label.error {
+	margin-left: 0;
+	display: block;
+    }
+}
+@media screen and (min-width:28em) {
+    label.error {
+	display: inline-block;
+	margin-left: 23%;
+    }
+}
